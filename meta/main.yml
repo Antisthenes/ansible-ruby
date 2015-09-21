@@ -1,7 +1,6 @@
 galaxy_info:
-  author: Michel Blanc
+  author: Alexander Kiok
   description: compiled-ruby role
-  company: ERASME/Grand-Lyon Métropole
   license: MIT
   min_ansible_version: 1.8
 
@@ -16,5 +15,5 @@ galaxy_info:
     - development
 
 dependencies:
- - role: erasme.rbenv
+ - role: Antisthens.rbenv
 

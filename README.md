@@ -34,7 +34,7 @@ Tags
 Dependencies
 ------------
 
-  - erasme.rbenv
+  - Antisthenes.rbenv
 
 Example Playbook
 ----------------
@@ -42,17 +42,11 @@ Example Playbook
 This is mainly used as a dependency in your existing playbooks, like:
 
     dependencies:
-      - { role: erasme.ruby-compiled,
-          ruby_version: "2.2.0" }
+      - { role: Antisthens.ruby,
+          ruby_version: "2.2.3" }
 
 License
 -------
 
 MIT
-
-Author Information
-------------------
-
-Created for @erasme by @leucos.
-
 
