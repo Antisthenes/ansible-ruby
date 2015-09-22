@@ -1,3 +1,4 @@
 - name: Installs ruby building dependencies
+  become: yes
   apt: name={{ item }} state=installed update-cache=yes
   with_items: ruby_deps
